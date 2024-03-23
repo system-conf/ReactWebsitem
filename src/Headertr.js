@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header id="header" className="header d-flex align-items-center fixed-top">     
-      <div className="container-fluid d-flex align-items-center justify-content-between">
+      <div className="container-fluid d-flex align-items-center justify-content-between max-ww">
         <Link to="/tr" className="logo d-flex align-items-center me-auto me-lg-0">
           <img src="assets/img/starkLoogo.svg" alt="" />
           <h1 className="myfont">system.conf</h1>

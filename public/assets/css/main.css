@@ -279,6 +279,10 @@ h6 {
   background-color: #000;
 }
 
+.max-ww{
+  max-width: 1200px;
+}
+
 .header .logo {
   transition: 0.3s;
 }
@@ -452,7 +456,6 @@ h6 {
 }
 
 @media (min-width: 1280px) {
-
   .mobile-nav-show,
   .mobile-nav-hide {
     display: none;
@@ -463,6 +466,10 @@ h6 {
 # Mobile Navigation
 --------------------------------------------------------------*/
 @media (max-width: 1279px) {
+.header-social-links {
+  display: none;
+}
+  
   .navbar {
     position: fixed;
     top: 0;
