@@ -1,16 +1,12 @@
 // Anasayfa.js
 import React from "react";
 import { Link } from "react-router-dom";
-import Particles from "react-tsparticles";
+
+
 
 const Home = () => {
   return (
-    <div className="particles-container"> {/* Parçacık konteynırı */}
-      <Particles
-        params={{
-          /* Parçacık parametreleri buraya gelecek */
-        }}
-      />
+    <div >
       <div className="mainContainer">
         <h1 className="myletter myfont myTextAlign mysecim">
           Web developer & Jr.Mobile developer{" "}
