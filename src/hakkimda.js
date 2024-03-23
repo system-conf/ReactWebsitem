@@ -31,7 +31,7 @@ const Hakkimda = () => {
                 </div>
               </div>
               <p className="py-3"> Merhaba, ben Süleyman Talha Duman, 2002 Kocaeli doğumluyum. Lise eğitimimi *Sabancı Mesleki ve Teknik Anadolu Lisesi*'nde tamamladım. Önlisans eğitimimi *Sakarya Üniversitesi* *Adapazarı Meslek Yüksekokulu Web Programlama ve Tasarım bölümünde tamamladım. Şu anda aktif olarak iş arıyorum.</p>
-              <Link to="/cv" className="myBtn myfont myletter">CV</Link>
+              <Link to="/Profile.pdf" target="_blank" className="myBtn myfont myletter">CV</Link>
               <a href="mailto:suleyman.talha.duman0@gmail.com" className="myBtn myfont myletter">MAIL</a>
             </div>
           </div>

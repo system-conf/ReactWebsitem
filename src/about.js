@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -34,7 +35,7 @@ const About = () => {
               I completed my high school education at *Sabancı Vocational and Technical Anatolian High School*.
               I completed my associate degree education at *Sakarya University* *Adapazarı Vocational School Web Programming and Design <b>I am currently actively looking for a job.</b>
             </p>
-            <a href="https://suleymantalha.dev/cv" className="myBtn myfont myletter">CV</a>
+            <Link to="/Profile.pdf" target="_blank" className="myBtn myfont myletter">CV</Link>
             <a href="mailto:suleyman.talha.duman0@gmail.com" className="myBtn myfont myletter">MAIL</a>
           </div>
         </div>
