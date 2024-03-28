@@ -14,6 +14,9 @@
     .mobile-menu {
       display: block; /* Ekran genişliği 768 piksel veya daha küçükse göster */
     }
+    .mysecim{
+      width: 200px;
+    }
 }
 
   .menu-icon {
@@ -58,4 +61,5 @@
   }
   
   /* Ekstra stillendirme ihtiyaçlarınızı buraya ekleyebilirsiniz */
+  
   

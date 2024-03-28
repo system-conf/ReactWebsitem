@@ -1,12 +1,21 @@
 // Anasayfa.js
 import React from "react";
 import { Link } from "react-router-dom";
-
-
+import backgroundImage from "./assets/img/system.conf.jpg";
 
 const Home = () => {
   return (
-    <div >
+    <div>
+      <div
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "100vh",
+          opacity: "40%",
+        }}
+      ></div>
+
       <div className="mainContainer">
         <h1 className="myletter myfont myTextAlign mysecim">
           Web developer & Jr.Mobile developer{" "}

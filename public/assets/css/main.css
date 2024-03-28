@@ -1315,6 +1315,8 @@ h6 {
 }
 
 .mainContainer {
+  
+  background-color: #00000098;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1322,7 +1324,7 @@ h6 {
   position: absolute;
   z-index: 1;
   margin: 0;
-  padding: 0;
+  padding: 100px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
